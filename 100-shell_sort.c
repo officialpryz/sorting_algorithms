@@ -9,10 +9,10 @@
  */
 void _swap(int *array, int i, int j)
 {
-  int tmp;
+	int tmp;
 
-  if (array[i] != array[j])
-    {
+	if (array[i] != array[j])
+	{
 		tmp = array[i];
 		array[i] = array[j];
 		array[j] = tmp;
